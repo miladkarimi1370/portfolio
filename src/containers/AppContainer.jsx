@@ -21,6 +21,9 @@ function AppContainer() {
   const [mode, setMode] = useState();
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme : dark)');
   const handlePageNumber = (event, newPage) => {
+
+
+
     setPageNumber(newPage);
   }
   useEffect(() => {
@@ -37,6 +40,9 @@ function AppContainer() {
     }
   }, [isSmUp]);
 
+  const handlePageChange = (index) => {
+    setPageNumber(index);
+  }
 
   const handleThemeChange = () => {
     setMode(prevMode => prevMode === "light" ? "dark" : "light");
@@ -59,7 +65,7 @@ function AppContainer() {
           <SwipeableViews
 
             index={pageNumber}
-            onChangeIndex={handlePageNumber}
+            onChangeIndex={handlePageChange}
           >
             <Page pageNumber={pageNumber} index={0}>
 

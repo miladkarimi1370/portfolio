@@ -32,7 +32,7 @@ const ShowMovies = () => {
                                 <CardContent>
                                     <Typography variant="body1" textAlign={"left"} gutterBottom>{film.title}</Typography>
                                     <Typography variant="body2" color="text.secondary" textAlign={"left"} gutterBottom sx={{ direction: "ltr" }}>
-                                        <EllipsisText text={film.info} length={"100"} />
+                                        <EllipsisText text={film.info} length={100} />
 
                                     </Typography>
                                 </CardContent>
