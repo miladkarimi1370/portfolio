@@ -1,0 +1,11 @@
+export { default as Home } from "./Home.jsx";
+export { default as About } from "./Abous.jsx";
+export { default as Resume } from "./Resume.jsx";
+export { default as Movies } from "./Movies.jsx";
+export { default as Comments } from "./Comments.jsx";
+export { default as ContaceMe } from "./ContaceMe.jsx";
+export { default as DevEduTimeLine } from "./DevEduTimeLine.jsx";
+export { default as DevExpTimeLine } from "./DevExpTimeLine.jsx";
+export { default as ShowMovies } from "./ShowMovies.jsx";
+export { default as CommentsSlider } from "./CommentsSlider.jsx";
+export {default as ContactForm} from  "./ContactForm.jsx";

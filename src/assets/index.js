@@ -1,0 +1,14 @@
+export { default as Golden } from "./golden-globe-svgrepo-com.svg";
+export { default as Gun } from "./gun-svgrepo-com.svg";
+export { default as Phontom } from './phantom-of-the-opera-opera-svgrepo-com.svg';
+export { default as SunGlassess } from "./sunglasses-and-hat-svgrepo-com.svg";
+export { default as Writer } from "./writer-svgrepo-com.svg";
+export { default as MainDanzel } from "./mainDanzel.jpg";
+export { default as SecoundDanzel } from "./denzel-hayes-washington-02.jpg";
+export { default as ThirdDanzel } from "./thirdDanzel.jpg";
+export { default as Forfth } from "./forth.jpg";
+export { default as avatarDanzel } from "./denzel-hayes-washington-02.jpg";
+export { default as Equlizer3 } from "./The-Equalizer-3-2023.jpg";
+export { default as EliBook } from "./The-Book-of-Eli.jpg";
+export { default as BoneCollector } from "./Bone_collector_poster.jpg";
+export { default as TrainingDay } from "./58ed16ca-3a09-44f0-b842-769082195c16.jpg";

@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Roboto Bk';
+    src: url('./Roboto-Black.eot');
+    src: url('./Roboto-Black.eot?#iefix') format('embedded-opentype'),
+        url('./Roboto-Black.woff2') format('woff2'),
+        url('./Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('./Vazir.eot');
+    src: url('./Vazir.eot?#iefix') format('embedded-opentype'),
+        url('./Vazir.woff2') format('woff2'),
+        url('./Vazir.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tanha';
+    src: url('./Tanha.eot');
+    src: url('./Tanha.eot?#iefix') format('embedded-opentype'),
+        url('./Tanha.woff2') format('woff2'),
+        url('./Tanha.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.MuiCard-root::-webkit-scrollbar {
+    display: none;
+}
